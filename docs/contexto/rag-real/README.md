@@ -26,7 +26,7 @@ Al finalizar, el participante debe: (1) cargar tres documentos ficticios; (2) ha
 ## Fase B — Crear una colección documental
 
 1. Abre la sección de conocimiento/documentos de Open WebUI en la versión instalada.
-2. Crea una colección denominada **«CDN ficticio — prueba CARS»**.
+2. Crea una colección denominada **«Biblioteca ficticia — prueba CARS»**.
 3. Sube los tres archivos Markdown en `datos_ficticios/`. Registra versión, fecha y tamaño de cada uno.
 4. Configura un modelo de embeddings compatible con Open WebUI, por ejemplo el descargado en la fase A, de acuerdo con [documentación RAG](https://docs.openwebui.com/features/rag/).
 5. **Comprueba la indexación** mediante los controles de la versión instalada. No asumas que subir archivos equivale a que ya se han procesado correctamente.
