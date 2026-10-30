@@ -37,4 +37,4 @@ metrics.forEach((name,i)=>{const fs=document.createElement("fieldset");const leg
 function calculate(){const v=metrics.map((_,i)=>Number(document.querySelector('input[name="m'+i+'"]:checked').value));const total=v.reduce((a,b)=>a+b,0);$("puntaje").textContent=total+" / 12";return {v,total}}
 $("resetRubrica").addEventListener("click",()=>{metrics.forEach((_,i)=>document.querySelector('input[name="m'+i+'"][value="0"]').checked=true);$("observaciones").value="";calculate();$("estadoRubrica").textContent="Evaluación reiniciada."});
 $("informe").addEventListener("click",()=>{const {v,total}=calculate();copyText("Evaluación CARS 2026\n"+metrics.map((m,i)=>m+": "+v[i]+"/2").join("\n")+"\nTotal: "+total+"/12\nObservaciones: "+$("observaciones").value,"estadoRubrica")});
-</script></body></html>
+</script><script src="../navegacion.js" defer></script></body></html>
