@@ -6,4 +6,4 @@
 
 [N3] El registro debe indicar fecha, tema tratado y compromisos acordados, cuando estos datos estén disponibles.
 
-> Documento inventado exclusivamente para formación. No corresponde a normas oficiales de Sercotec.
+> Documento inventado exclusivamente para formación. No representa normativa oficial de ninguna organización.
