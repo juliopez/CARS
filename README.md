@@ -19,18 +19,22 @@ La metodología **CARS**, desarrollada y difundida por el **Dr. Julio López-Nú
 
 ## Arquitectura pedagógica 2026
 
-**CARS es el eje central:** Contexto, Acción, Rol y Salida. El itinerario comienza por la metodología y su aplicación; modelos, memoria, asistentes y RAG son módulos complementarios, no prerrequisitos universales.
+**Propósito de la capacitación aplicada:** mejorar la productividad y la calidad del trabajo de los asesores del Centro de Desarrollo de Negocios Sercotec Quilicura–Renca. **CARS es una metodología transversal para lograr ese propósito**, conservando su identidad y archivo histórico.
 
 **[Abrir recorrido guiado en GitHub Pages](https://juliopez.github.io/CARS/)**
 
-### Núcleo CARS: cuatro recursos
+### Ruta aplicada a la asesoría empresarial
+
+[Objetivos, secuencia, productos y restricciones del taller Sercotec](docs/RUTA_SERCOTEC_2026.md). Esta propuesta no representa un programa aprobado por el Centro; duración y calendario deben confirmarse.
+
+### Herramienta transversal CARS: cuatro recursos
 
 1. **Teoría:** [Guía CARS 2026](docs/GUIA_CARS_2026.md).
 2. **Presentación:** [CARS 2026](docs/presentacion/index.html).
 3. **Simulador:** [Explorar los componentes CARS](docs/simuladores/cars.html).
 4. **Laboratorio:** [Construir y evaluar un prompt](docs/laboratorio/index.html).
 
-### Aplicaciones complementarias (opcionales)
+### Biblioteca de recursos según las necesidades (incluye profundización opcional)
 
 | Tema | Presentación | Simulación | Práctica |
 |---|---|---|---|
