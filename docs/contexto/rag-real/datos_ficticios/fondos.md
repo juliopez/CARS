@@ -6,4 +6,4 @@
 
 [F3] Antes de orientar a una empresa, solicitar convocatoria y bases, y corroborar información en la fuente oficial.
 
-> Documento inventado exclusivamente para formación. No corresponde a normas oficiales de Sercotec.
+> Documento inventado exclusivamente para formación. No representa normativa oficial de ninguna organización.
