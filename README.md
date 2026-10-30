@@ -27,7 +27,7 @@ La página principal está organizada como un **recorrido de aprendizaje**, en l
 |---|---|---|
 | 1. Comprender | Modelos, modalidades, capacidades y parámetros | [Teoría](docs/PANORAMA_MODELOS_2026.md) · [Presentación](docs/presentaciones/modelos.html) · [Simulador](docs/simuladores/parametros.html) · [Laboratorio](docs/laboratorios/seleccion-modelos.html) |
 | 2. Comunicar | Construir prompts CARS y evaluar las respuestas | [Presentación](docs/presentacion/index.html), [simulador](docs/simuladores/cars.html) y [laboratorio](docs/laboratorio/index.html) |
-| 3. Organizar | Memoria, contexto, proyectos, archivos y traspasos | [Guía de contexto](docs/contexto/index.html) |
+| 3. Organizar | Memoria, contexto, proyectos, archivos y traspasos | [Guía de contexto](docs/contexto/index.html) y [presentación](docs/presentaciones/contexto.html) |
 | 4. Configurar | Instrucciones, Knowledge, Skills y herramientas en la nube | [Asistentes en la nube](docs/nube/index.html) |
 | 5. Profundizar (opcional) | Comparación de contexto y recuperación RAG | [Comparador](docs/contexto/comparador.html) y [RAG local](docs/contexto/rag-real/index.html) |
 
