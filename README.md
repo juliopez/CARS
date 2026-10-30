@@ -29,7 +29,7 @@ La página principal está organizada como un **recorrido de aprendizaje**, en l
 | 2. Comunicar | Construir prompts CARS y evaluar las respuestas | [Presentación](docs/presentacion/index.html), [simulador](docs/simuladores/cars.html) y [laboratorio](docs/laboratorio/index.html) |
 | 3. Organizar | Memoria, contexto, proyectos, archivos y traspasos | [Guía de contexto](docs/contexto/index.html) y [presentación](docs/presentaciones/contexto.html) |
 | 4. Configurar | Instrucciones, Knowledge, Skills y herramientas en la nube | [Teoría](docs/nube/index.html), [presentación](docs/presentaciones/asistentes.html) y [simulador](docs/simuladores/asistentes.html) |
-| 5. Profundizar (opcional) | Comparación de contexto y recuperación RAG | [Comparador](docs/contexto/comparador.html) y [RAG local](docs/contexto/rag-real/index.html) |
+| 5. Profundizar (opcional) | Comparación de contexto y recuperación RAG | [Presentación](docs/presentaciones/rag.html), [comparador](docs/contexto/comparador.html) y [RAG local](docs/contexto/rag-real/index.html) |
 
 ### Tipos de material
 
