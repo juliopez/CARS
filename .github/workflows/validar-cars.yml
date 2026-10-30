@@ -1,0 +1,49 @@
+name: Validar CARS 2026
+on:
+  push:
+    branches: [actualizacion-2026]
+  pull_request:
+    paths: ['docs/**', 'laboratorio/**', '.github/workflows/validar-cars.yml']
+jobs:
+  static-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verificar rutas y scripts del sitio
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from html.parser import HTMLParser
+          import subprocess, tempfile
+          root=Path('docs')
+          pages=sorted(root.rglob('*.html'))
+          for page in pages:
+              assert page.is_file(), f'Falta {page}'
+              content=page.read_text(encoding='utf-8')
+              assert '<html' in content and '</html>' in content, f'HTML incompleto: {page}'
+              class Links(HTMLParser):
+                  def __init__(self): super().__init__(); self.links=[]
+                  def handle_starttag(self,tag,attrs):
+                      if tag=='a':
+                          self.links += [v for k,v in attrs if k=='href' and v]
+              parser=Links();parser.feed(content)
+              for link in parser.links:
+                  if link.startswith(('http:','https:','#','mailto:','javascript:')): continue
+                  if not link.split('#')[0].split('?')[0]: continue
+                  target=(page.parent/link.split('#')[0].split('?')[0]).resolve()
+                  if target.is_dir(): target=target/'index.html'
+                  assert target.exists(), f'Enlace roto desde {page}: {link}'
+              import re
+              scripts=re.findall(r'<script[^>]*>(.*?)</script>',content,re.S|re.I)
+              # Las páginas puramente informativas no necesitan JavaScript.
+              for code in scripts:
+                  with tempfile.NamedTemporaryFile(mode='w',suffix='.js',delete=False) as f:
+                      f.write(code); name=f.name
+                  try: subprocess.run(['node','--check',name],check=True)
+                  finally: Path(name).unlink()
+              print(f'OK: {page} ({len(parser.links)} enlaces comprobados)')
+          PY
