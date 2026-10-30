@@ -4,7 +4,7 @@
 
 ## Objetivo rector
 
-**Distinguir dos propósitos:** (1) preservar CARS como metodología pedagógica original de 2023 y su actualización 2026; (2) organizar una capacitación aplicada cuyo objetivo inicial es la productividad y calidad de la asesoría del CDN Sercotec Quilicura–Renca. En la capacitación, CARS es un medio transversal, no un fin. El itinerario profesional está documentado en `docs/RUTA_SERCOTEC_2026.md`.
+Mantener una plataforma pública de **autoaprendizaje en IA generativa**, independiente de cualquier organismo, institución, curso o programa. CARS aporta la metodología para formular instrucciones, y los otros recursos desarrollan competencias complementarias. La ruta oficial es `docs/RUTA_AUTOAPRENDIZAJE.md`. No publicar referencias a encargos institucionales ni promesas de capacitación.
 
 ## Recorrido canónico
 
