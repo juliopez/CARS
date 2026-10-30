@@ -1,3 +1,7 @@
+[← Volver al recorrido](https://juliopez.github.io/CARS/) · [Metodología CARS](https://juliopez.github.io/CARS/#comenzar) · [Recursos complementarios](https://juliopez.github.io/CARS/#recursos)
+
+---
+
 # Panorama de modelos y servicios de IA — octubre de 2026
 
 **Material didáctico CARS 2026 · revisión: 30 de octubre de 2026.**
