@@ -19,13 +19,13 @@ La metodología **CARS**, desarrollada y difundida por el **Dr. Julio López-Nú
 
 ## Arquitectura pedagógica 2026
 
-**Propósito de la capacitación aplicada:** mejorar la productividad y la calidad del trabajo de los asesores del Centro de Desarrollo de Negocios Sercotec Quilicura–Renca. **CARS es una metodología transversal para lograr ese propósito**, conservando su identidad y archivo histórico.
+**Propósito:** repositorio público de autoaprendizaje en IA generativa, independiente de organizaciones, cursos y convocatorias. CARS es una metodología transversal para construir y verificar instrucciones.ntro de Desarrollo de Negocios Sercotec Quilicura–Renca. **CARS es una metodología transversal para lograr ese propósito**, conservando su identidad y archivo histórico.
 
 **[Abrir recorrido guiado en GitHub Pages](https://juliopez.github.io/CARS/)**
 
-### Ruta aplicada a la asesoría empresarial
+### Ruta de autoaprendizaje
 
-[Objetivos, secuencia, productos y restricciones del taller Sercotec](docs/RUTA_SERCOTEC_2026.md). Esta propuesta no representa un programa aprobado por el Centro; duración y calendario deben confirmarse.
+[Guía de aprendizaje autónomo](docs/RUTA_AUTOAPRENDIZAJE.md), con teoría, presentaciones, simuladores y laboratorios para avanzar a ritmo propio.
 
 ### Herramienta transversal CARS: cuatro recursos
 
@@ -43,7 +43,7 @@ La metodología **CARS**, desarrollada y difundida por el **Dr. Julio López-Nú
 | Asistentes en nube | [Asistentes](docs/presentaciones/asistentes.html) | [Capas del asistente](docs/simuladores/asistentes.html) | [Instrucciones de proyecto](docs/nube/index.html#purpose) |
 | RAG y recuperación avanzada | [RAG](docs/presentaciones/rag.html) | [Comparación de estrategias](docs/contexto/comparador.html) | [Laboratorio local](docs/contexto/rag-real/index.html) |
 
-Fuentes y teoría adicional: [panorama de modelos](docs/PANORAMA_MODELOS_2026.md), [guía de contexto](docs/contexto/index.html), [archivos y multimedia](docs/contexto/archivos.html), [configuración en nube](docs/nube/index.html). Los [casos de asesoría](docs/CASOS_SERCOTEC.md) son ficticios y la [rúbrica](docs/RUBRICA.md) es un instrumento didáctico, no psicométricamente validado.
+Fuentes y teoría adicional: [panorama de modelos](docs/PANORAMA_MODELOS_2026.md), [guía de contexto](docs/contexto/index.html), [archivos y multimedia](docs/contexto/archivos.html), [configuración en nube](docs/nube/index.html). Los [casos prácticos](docs/CASOS_PRACTICOS.md) son ficticios y la [rúbrica](docs/RUBRICA.md) es un instrumento didáctico, no psicométricamente validado.
 
 **Mantenimiento:** consultar [inventario y decisiones editoriales](docs/INVENTARIO_2026.md) antes de añadir recursos. Hay rutas de presentación duplicadas identificadas, preservadas hasta su revisión. El material histórico de 2023 sigue intacto.
 
@@ -58,14 +58,9 @@ Fuentes y teoría adicional: [panorama de modelos](docs/PANORAMA_MODELOS_2026.md
 
 ## Origen académico y preservación histórica
 
-Este repositorio conserva el material del taller **«Construyendo Prompts Efectivos: Taller para Estudiantes de Pregrado y Futuros Investigadores»**, presentado por **Dr. Julio López-Núñez (Universidad de Playa Ancha)** durante el **5.º Encuentro de Semilleros de Investigación de Estudiantes de Pregrado**, realizado en 2023 en la **Universidad de Los Lagos, Campus Osorno**.
+El repositorio conserva la versión histórica de 2023 como referencia del origen y evolución de CARS, sin afiliación institucional del proyecto actual.
 
 La presentación original [**Taller IA-G.pdf**](./Taller%20IA-G.pdf) **se mantiene sin modificaciones** como testimonio académico del taller. Sus referencias a tecnologías corresponden a la época y **no deben interpretarse como una descripción vigente de capacidades o productos en 2026**.
-
-Fuentes institucionales sobre el encuentro:
-- [Universidad de Playa Ancha](https://www.upla.cl/noticias/2023/10/31/60-estudiantes-de-universidades-estatales-participaron-en-el-quinto-encuentro-de-semilleros-de-investigacion-de-pregrado/)
-- [Universidad de Los Lagos](https://www.ulagos.cl/2023/10/ulagos-es-anfitriona-del-5-encuentro-nacional-de-semilleros-de-investigacion-de-pregrado/)
-- [Semillero de Investigación ULagos](https://semillerodeinvestigacion.ulagos.cl/actividades-semillero/encuentros-de-semilleros-de-investigacion-para-estudiantes-de-pregrado/5to-encuentro/)
 
 ## Límites de uso
 
@@ -83,6 +78,5 @@ Las referencias oficiales consultadas para esta actualización, con sus enlaces,
 ---
 
 **Autor del material original:** Dr. Julio López-Núñez  
-**Institución vinculada al taller de origen:** Universidad de Playa Ancha · Valparaíso, Chile  
 **Primera actividad documentada:** octubre de 2023  
 **Revisión de contenidos:** octubre de 2026
