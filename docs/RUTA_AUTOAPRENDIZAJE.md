@@ -1,3 +1,7 @@
+[← Volver al recorrido](https://juliopez.github.io/CARS/) · [Metodología CARS](https://juliopez.github.io/CARS/#comenzar) · [Recursos complementarios](https://juliopez.github.io/CARS/#recursos)
+
+---
+
 # Ruta de autoaprendizaje en IA generativa
 
 **Propósito:** aprender de manera autónoma a formular instrucciones, evaluar resultados, administrar contexto y documentos, configurar asistentes y explorar recuperación de información.
