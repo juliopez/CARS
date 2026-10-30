@@ -17,27 +17,32 @@ La metodología **CARS**, desarrollada y difundida por el **Dr. Julio López-Nú
 > **Principio de actualización 2026:** definir un objetivo preciso, aportar contexto útil y **verificar el resultado**. Un prompt más extenso no es necesariamente mejor.
 
 
-## Laboratorio interactivo 2026
+## Cómo utilizar CARS 2026
 
-Se agregó un [constructor visual de prompts CARS](laboratorio/index.html) que permite completar los cuatro componentes, utilizar casos ficticios, generar y copiar instrucciones, descargar un archivo de texto y aplicar la rúbrica didáctica de seis criterios.
+La página principal está organizada como un **recorrido de aprendizaje**, en lugar de un catálogo de materiales.
 
-**Uso local:** descarga el repositorio y abre `laboratorio/index.html` en un navegador moderno. No requiere servidor ni claves API y no envía los campos a servicios externos. No ejecuta modelos de IA. La copia automática puede requerir HTTPS o un entorno seguro; la descarga y la selección manual del texto son alternativas.
+**[Abrir ruta formativa en GitHub Pages](https://juliopez.github.io/CARS/)**
 
-**Publicación:** el laboratorio está preparado como sitio estático para GitHub Pages. La rama de trabajo no implica que GitHub Pages ya esté desplegado; se debe configurar la fuente de publicación y comprobar la URL antes de anunciarla.
+| Etapa | Propósito | Recurso principal |
+|---|---|---|
+| 1. Comprender | Modelos, modalidades, capacidades y parámetros | [Panorama de modelos](docs/PANORAMA_MODELOS_2026.md) |
+| 2. Comunicar | Construir prompts CARS y evaluar las respuestas | [Presentación](docs/presentacion/index.html) y [laboratorio](docs/laboratorio/index.html) |
+| 3. Organizar | Memoria, contexto, proyectos, archivos y traspasos | [Guía de contexto](docs/contexto/index.html) |
+| 4. Configurar | Instrucciones, Knowledge, Skills y herramientas en la nube | [Asistentes en la nube](docs/nube/index.html) |
+| 5. Profundizar (opcional) | Comparación de contexto y recuperación RAG | [Comparador](docs/contexto/comparador.html) y [RAG local](docs/contexto/rag-real/index.html) |
 
-- 🖥️ **[Presentación CARS 2026](docs/presentacion/index.html):** nueve diapositivas navegables para usar durante el taller, con acceso al laboratorio.\n\n- 📊 **[Modelos y servicios de IA en 2026](docs/PANORAMA_MODELOS_2026.md):** acceso gratis/de pago, especialidades, parámetros 8B/70B, ventanas de contexto y cuantización, con fuentes oficiales y fecha de revisión.\n\n- 🧠 **[Memoria, contexto y continuidad](docs/contexto/index.html):** gestión de ventanas de contexto, proyectos, resúmenes, traspasos entre chats y privacidad. Incluye generador interactivo de traspasos.\n\n- 📁 **[Archivos, multimedia y RAG](docs/contexto/archivos.html):** PDF, Word, Markdown, Excel, imágenes, audio y vídeo; extracción, contexto, verificación, recuperación y selector de estrategia.\n\n- 🔬 **[Laboratorio comparativo de contexto](docs/contexto/comparador.html):** texto completo, resumen y recuperación tipo RAG simulada, con evidencias y análisis de errores.\n\n- 🧩 **[Laboratorio RAG local real](docs/contexto/rag-real/):** procedimiento Ollama y Open WebUI, tres fuentes ficticias, preguntas de evaluación y comparación de recuperación.\n\n- ☁️ **[Asistentes en la nube](docs/nube/index.html):** equivalentes de System Prompt, Knowledge, Skills y herramientas; diferencias Free/pago; generador de instrucciones y rúbrica.\n\n## Recorrido recomendado
+### Tipos de material
 
-1. **Comprender** CARS y distinguir sus cuatro componentes.
-2. **Aplicar** CARS a una tarea concreta con datos ficticios o autorizados.
-3. **Contrastar** respuestas espontáneas y estructuradas, evitando asumir que una fórmula siempre gana.
-4. **Evaluar** exactitud, pertinencia, evidencias, alcance, formato y riesgos.
-5. **Iterar** y registrar cambios; para tareas repetitivas, conservar casos de prueba.
+- **Presentación:** apoyo visual del docente; no reemplaza las prácticas.
+- **Laboratorios:** actividades del estudiante con un producto observable.
+- **Guías y referencias:** consulta según necesidad, no lecturas obligatorias al comenzar.
+- **Archivo histórico:** la [presentación del taller de 2023](Taller%20IA-G.pdf) se preserva sin modificaciones.
 
-### Material didáctico 2026
+Para una formación introductoria se recomiendan las etapas 1–4. La etapa 5 requiere condiciones técnicas adicionales; su procedimiento de implementación local aún debe validarse en cada equipo. Los ejercicios de Sercotec son ficticios y no constituyen requisitos oficiales.
 
-- 📘 **[Guía metodológica CARS 2026](docs/GUIA_CARS_2026.md):** actualización conceptual; cuándo conviene usar CARS, modelos de razonamiento, multimodalidad, agentes y evaluación.
-- 🧪 **[Ejercicios contextualizados para Sercotec](docs/CASOS_SERCOTEC.md):** cuatro casos progresivos ficticios; propuestas pedagógicas, no requerimientos oficiales de Sercotec.
-- 📋 **[Rúbrica de evaluación](docs/RUBRICA.md):** instrumento didáctico de seis dimensiones y registro de pruebas.
+### Recursos de consulta
+
+[Guía metodológica CARS](docs/GUIA_CARS_2026.md) · [Casos didácticos](docs/CASOS_SERCOTEC.md) · [Rúbrica](docs/RUBRICA.md) · [Archivos y multimedia](docs/contexto/archivos.html).
 
 ## Un ejemplo de aplicación
 
