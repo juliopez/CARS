@@ -1,3 +1,7 @@
+[← Volver al recorrido](https://juliopez.github.io/CARS/) · [Metodología CARS](https://juliopez.github.io/CARS/#comenzar) · [Recursos complementarios](https://juliopez.github.io/CARS/#recursos)
+
+---
+
 # Laboratorio RAG real — Ollama + Open WebUI (CARS 2026)
 
 **Estado:** guía reproducible propuesta, requiere prueba en el equipo del participante. **No confundir** con el [simulador didáctico](../../docs/contexto/comparador.html), que no ejecuta recuperación automática ni modelos.
