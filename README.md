@@ -19,7 +19,7 @@ La metodología **CARS**, desarrollada y difundida por el **Dr. Julio López-Nú
 
 ## Arquitectura pedagógica 2026
 
-**Propósito:** repositorio público de autoaprendizaje en IA generativa, independiente de organizaciones, cursos y convocatorias. CARS es una metodología transversal para construir y verificar instrucciones.ntro de Desarrollo de Negocios cualquier organización Quilicura–Renca. **CARS es una metodología transversal para lograr ese propósito**, conservando su identidad y archivo histórico.
+**Propósito:** repositorio público de autoaprendizaje en inteligencia artificial generativa, sin vinculación con instituciones ni programas de capacitación. CARS es la metodología transversal para construir, probar y evaluar instrucciones; los demás recursos permiten aplicarla a diferentes tareas.
 
 **[Abrir recorrido guiado en GitHub Pages](https://juliopez.github.io/CARS/)**
 
