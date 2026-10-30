@@ -17,32 +17,31 @@ La metodología **CARS**, desarrollada y difundida por el **Dr. Julio López-Nú
 > **Principio de actualización 2026:** definir un objetivo preciso, aportar contexto útil y **verificar el resultado**. Un prompt más extenso no es necesariamente mejor.
 
 
-## Cómo utilizar CARS 2026
+## Arquitectura pedagógica 2026
 
-La página principal está organizada como un **recorrido de aprendizaje**, en lugar de un catálogo de materiales.
+**CARS es el eje central:** Contexto, Acción, Rol y Salida. El itinerario comienza por la metodología y su aplicación; modelos, memoria, asistentes y RAG son módulos complementarios, no prerrequisitos universales.
 
-**[Abrir ruta formativa en GitHub Pages](https://juliopez.github.io/CARS/)**
+**[Abrir recorrido guiado en GitHub Pages](https://juliopez.github.io/CARS/)**
 
-| Etapa | Propósito | Recurso principal |
-|---|---|---|
-| 1. Comprender | Modelos, modalidades, capacidades y parámetros | [Teoría](docs/PANORAMA_MODELOS_2026.md) · [Presentación](docs/presentaciones/modelos.html) · [Simulador](docs/simuladores/parametros.html) · [Laboratorio](docs/laboratorios/seleccion-modelos.html) |
-| 2. Comunicar | Construir prompts CARS y evaluar las respuestas | [Presentación](docs/presentacion/index.html), [simulador](docs/simuladores/cars.html) y [laboratorio](docs/laboratorio/index.html) |
-| 3. Organizar | Memoria, contexto, proyectos, archivos y traspasos | [Guía de contexto](docs/contexto/index.html) y [presentación](docs/presentaciones/contexto.html) |
-| 4. Configurar | Instrucciones, Knowledge, Skills y herramientas en la nube | [Teoría](docs/nube/index.html), [presentación](docs/presentaciones/asistentes.html) y [simulador](docs/simuladores/asistentes.html) |
-| 5. Profundizar (opcional) | Comparación de contexto y recuperación RAG | [Presentación](docs/presentaciones/rag.html), [comparador](docs/contexto/comparador.html) y [RAG local](docs/contexto/rag-real/index.html) |
+### Núcleo CARS: cuatro recursos
 
-### Tipos de material
+1. **Teoría:** [Guía CARS 2026](docs/GUIA_CARS_2026.md).
+2. **Presentación:** [CARS 2026](docs/presentacion/index.html).
+3. **Simulador:** [Explorar los componentes CARS](docs/simuladores/cars.html).
+4. **Laboratorio:** [Construir y evaluar un prompt](docs/laboratorio/index.html).
 
-- **Presentación:** apoyo visual del docente; no reemplaza las prácticas.
-- **Laboratorios:** actividades del estudiante con un producto observable.
-- **Guías y referencias:** consulta según necesidad, no lecturas obligatorias al comenzar.
-- **Archivo histórico:** la [presentación del taller de 2023](Taller%20IA-G.pdf) se preserva sin modificaciones.
+### Aplicaciones complementarias (opcionales)
 
-Para una formación introductoria se recomiendan las etapas 1–4. La etapa 5 requiere condiciones técnicas adicionales; su procedimiento de implementación local aún debe validarse en cada equipo. Los ejercicios de Sercotec son ficticios y no constituyen requisitos oficiales.
+| Tema | Presentación | Simulación | Práctica |
+|---|---|---|---|
+| Modelos y servicios | [Modelos](docs/presentaciones/modelos.html) | [Parámetros y memoria](docs/simuladores/parametros.html) | [Selección de modelos](docs/laboratorios/seleccion-modelos.html) |
+| Memoria, contexto y archivos | [Contexto](docs/presentaciones/contexto.html) | [Proyecto de cuatro semanas](docs/contexto/index.html#simulador) | [Traspaso entre chats](docs/contexto/index.html#objetivo) |
+| Asistentes en nube | [Asistentes](docs/presentaciones/asistentes.html) | [Capas del asistente](docs/simuladores/asistentes.html) | [Instrucciones de proyecto](docs/nube/index.html#purpose) |
+| RAG y recuperación avanzada | [RAG](docs/presentaciones/rag.html) | [Comparación de estrategias](docs/contexto/comparador.html) | [Laboratorio local](docs/contexto/rag-real/index.html) |
 
-### Recursos de consulta
+Fuentes y teoría adicional: [panorama de modelos](docs/PANORAMA_MODELOS_2026.md), [guía de contexto](docs/contexto/index.html), [archivos y multimedia](docs/contexto/archivos.html), [configuración en nube](docs/nube/index.html). Los [casos de asesoría](docs/CASOS_SERCOTEC.md) son ficticios y la [rúbrica](docs/RUBRICA.md) es un instrumento didáctico, no psicométricamente validado.
 
-[Guía metodológica CARS](docs/GUIA_CARS_2026.md) · [Casos didácticos](docs/CASOS_SERCOTEC.md) · [Rúbrica](docs/RUBRICA.md) · [Archivos y multimedia](docs/contexto/archivos.html).
+**Mantenimiento:** consultar [inventario y decisiones editoriales](docs/INVENTARIO_2026.md) antes de añadir recursos. Hay rutas de presentación duplicadas identificadas, preservadas hasta su revisión. El material histórico de 2023 sigue intacto.
 
 ## Un ejemplo de aplicación
 
