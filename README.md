@@ -1,68 +1,71 @@
 # CARS — Metodología para la construcción de prompts efectivos
 
-**Contexto · Acción · Rol · Salida**
+**Contexto · Acción · Rol · Salida**  
+**Material original: 2023 · Actualización pedagógica: octubre de 2026**
 
-Este repositorio conserva el material del taller **“Construyendo Prompts Efectivos: Taller para Estudiantes de Pregrado y Futuros Investigadores”**, desarrollado por **Dr. Julio López-Núñez, Universidad de Playa Ancha**, en el contexto del **5.º Encuentro de Semilleros de Investigación de Estudiantes de Pregrado**, realizado en 2023 en la Universidad de Los Lagos, Campus Osorno.
+La metodología **CARS**, desarrollada y difundida por el **Dr. Julio López-Núñez**, organiza una instrucción a un modelo de IA generativa en cuatro componentes que ayudan a expresar con claridad qué se necesita, para quién y con qué condiciones. Su uso es **flexible**: no es una sintaxis obligatoria ni garantiza por sí solo respuestas correctas.
 
-El taller estuvo orientado a introducir a estudiantes de pregrado y futuros investigadores en el uso efectivo de la Inteligencia Artificial Generativa mediante una estructura sencilla para diseñar instrucciones claras, contextualizadas y verificables.
+## CARS en una mirada
 
-## Metodología CARS
-
-**CARS** organiza la construcción de un prompt en cuatro componentes:
-
-| Componente | Significado | Pregunta orientadora |
+| Componente | Pregunta | Qué especificar |
 |---|---|---|
-| **C** | **Contexto (Context)** | ¿Qué información necesita el modelo para comprender la situación? |
-| **A** | **Acción (Action)** | ¿Qué tarea debe realizar? |
-| **R** | **Rol (Role)** | ¿Desde qué función o perspectiva debe responder? |
-| **S** | **Salida (Solution/Output)** | ¿Qué contenido, estructura o formato debe tener la respuesta? |
+| **C — Contexto** | ¿Cuál es la situación? | Información pertinente, destinatario, fuentes y limitaciones |
+| **A — Acción** | ¿Qué hay que hacer? | Tarea, propósito, criterios de éxito |
+| **R — Rol** | ¿Qué perspectiva conviene? | Función, especialidad o tono, cuando aporte valor |
+| **S — Salida** | ¿Cómo presentar el resultado? | Formato, alcance, extensión, evidencias y asuntos pendientes |
 
-La metodología busca que el usuario no se limite a formular una pregunta aislada, sino que explicite el contexto, la tarea, la perspectiva esperada y las características de la respuesta.
+> **Principio de actualización 2026:** definir un objetivo preciso, aportar contexto útil y **verificar el resultado**. Un prompt más extenso no es necesariamente mejor.
 
-### Ejemplo
+## Recorrido recomendado
 
-> **Contexto:** estudiantes de pregrado necesitan comprender las ventajas de las redes neuronales en el procesamiento del lenguaje natural.  
-> **Acción:** explicar dichas ventajas.  
-> **Rol:** asumir el papel de profesor de Inteligencia Artificial.  
-> **Salida:** presentar la explicación mediante un mapa conceptual y/o una tabla de tres columnas.
+1. **Comprender** CARS y distinguir sus cuatro componentes.
+2. **Aplicar** CARS a una tarea concreta con datos ficticios o autorizados.
+3. **Contrastar** respuestas espontáneas y estructuradas, evitando asumir que una fórmula siempre gana.
+4. **Evaluar** exactitud, pertinencia, evidencias, alcance, formato y riesgos.
+5. **Iterar** y registrar cambios; para tareas repetitivas, conservar casos de prueba.
 
-## Objetivo del taller
+### Material didáctico 2026
 
-El taller se enfocó en la construcción de prompts efectivos para aprovechar las capacidades de la IA generativa. Su propósito fue que los participantes aprendieran a formular instrucciones claras y precisas para obtener respuestas de mayor calidad y pertinencia contextual.
+- 📘 **[Guía metodológica CARS 2026](docs/GUIA_CARS_2026.md):** actualización conceptual; cuándo conviene usar CARS, modelos de razonamiento, multimodalidad, agentes y evaluación.
+- 🧪 **[Ejercicios contextualizados para Sercotec](docs/CASOS_SERCOTEC.md):** cuatro casos progresivos ficticios; propuestas pedagógicas, no requerimientos oficiales de Sercotec.
+- 📋 **[Rúbrica de evaluación](docs/RUBRICA.md):** instrumento didáctico de seis dimensiones y registro de pruebas.
 
-La actividad combinó:
+## Un ejemplo de aplicación
 
-- introducción a la IA generativa;
-- construcción de prompts mediante CARS;
-- ejemplos y ejercicios prácticos;
-- exploración de distintos formatos de salida;
-- herramientas de apoyo para estudiantes e investigadores;
-- reflexión final sobre la aplicación de estas técnicas en investigación.
+**C (Contexto):** Un centro de asesoría empresarial necesita resumir notas ficticias de una reunión de atención.  
+**A (Acción):** Extrae los acuerdos, responsables y fechas que aparezcan expresamente, sin completar vacíos con suposiciones.  
+**R (Rol):** Actúa como asistente de sistematización para un profesional del centro.  
+**S (Salida):** Entrega una tabla de acuerdos y una sección «Información por confirmar»; señala qué parte de las notas respalda cada dato.
 
-## Material
+**Después de obtener la respuesta:** contrastar el resumen con las notas originales y corregir las omisiones o inferencias indebidas. Esta comprobación no añade una quinta letra a CARS: es una fase de evaluación.
 
-📄 **[Taller IA-G.pdf](./Taller%20IA-G.pdf)** — presentación original utilizada en el taller.
+## Origen académico y preservación histórica
 
-## Contexto académico
+Este repositorio conserva el material del taller **«Construyendo Prompts Efectivos: Taller para Estudiantes de Pregrado y Futuros Investigadores»**, presentado por **Dr. Julio López-Núñez (Universidad de Playa Ancha)** durante el **5.º Encuentro de Semilleros de Investigación de Estudiantes de Pregrado**, realizado en 2023 en la **Universidad de Los Lagos, Campus Osorno**.
 
-El **5.º Encuentro de Semilleros de Investigación de Estudiantes de Pregrado** reunió a estudiantes, académicos e investigadores de distintas universidades chilenas para compartir investigaciones, metodologías y experiencias de formación investigativa.
+La presentación original [**Taller IA-G.pdf**](./Taller%20IA-G.pdf) **se mantiene sin modificaciones** como testimonio académico del taller. Sus referencias a tecnologías corresponden a la época y **no deben interpretarse como una descripción vigente de capacidades o productos en 2026**.
 
-La Universidad de Playa Ancha documentó la participación del **Dr. Julio López Núñez** entre los académicos responsables de los talleres especializados del encuentro, incluyendo el área de inteligencia artificial.
+Fuentes institucionales sobre el encuentro:
+- [Universidad de Playa Ancha](https://www.upla.cl/noticias/2023/10/31/60-estudiantes-de-universidades-estatales-participaron-en-el-quinto-encuentro-de-semilleros-de-investigacion-de-pregrado/)
+- [Universidad de Los Lagos](https://www.ulagos.cl/2023/10/ulagos-es-anfitriona-del-5-encuentro-nacional-de-semilleros-de-investigacion-de-pregrado/)
+- [Semillero de Investigación ULagos](https://semillerodeinvestigacion.ulagos.cl/actividades-semillero/encuentros-de-semilleros-de-investigacion-para-estudiantes-de-pregrado/5to-encuentro/)
 
-### Fuentes institucionales
+## Límites de uso
 
-- [Universidad de Playa Ancha — 60 estudiantes participaron en el quinto Encuentro de Semilleros de Investigación](https://www.upla.cl/noticias/2023/10/31/60-estudiantes-de-universidades-estatales-participaron-en-el-quinto-encuentro-de-semilleros-de-investigacion-de-pregrado/)
-- [Universidad de Los Lagos — ULagos es anfitriona del 5° Encuentro Nacional de Semilleros de Investigación de pregrado](https://www.ulagos.cl/2023/10/ulagos-es-anfitriona-del-5-encuentro-nacional-de-semilleros-de-investigacion-de-pregrado/)
-- [Semillero de Investigación ULagos — 5to Encuentro](https://semillerodeinvestigacion.ulagos.cl/actividades-semillero/encuentros-de-semilleros-de-investigacion-para-estudiantes-de-pregrado/5to-encuentro/)
+- CARS **no elimina las alucinaciones** ni sustituye la evaluación crítica.
+- La respuesta puede variar entre modelos, versiones y ejecuciones.
+- No introducir datos personales, comerciales o institucionales confidenciales sin autorización.
+- No confiar en citas, cálculos o promesas de acciones sin verificación independiente.
+- Cuando una tarea implique consecuencias externas (enviar mensajes, modificar registros, emitir recomendaciones), establecer permisos y supervisión humana.
+- CARS es una **metodología pedagógica**, no un estándar industrial ni una escala psicométrica validada.
 
-## Nota sobre la vigencia del material
+## Lecturas actuales
 
-La presentación corresponde a **2023** y se conserva en su versión original como registro académico de la actividad. Algunas referencias a modelos, plataformas, herramientas y límites técnicos reflejan el estado de la IA generativa en ese período y pueden haber cambiado.
-
-La estructura **CARS** se presenta aquí como el componente conceptual central del taller y como una estrategia pedagógica para estructurar instrucciones dirigidas a modelos de IA generativa.
+Las referencias oficiales consultadas para esta actualización, con sus enlaces, están reunidas en la [Guía CARS 2026](docs/GUIA_CARS_2026.md). Se distinguen los principios didácticos relativamente estables de las características de productos y modelos, que deben comprobarse al impartir cada curso.
 
 ---
 
-**Autor:** Dr. Julio López-Núñez  
-**Institución:** Universidad de Playa Ancha · Valparaíso, Chile  
-**Actividad:** 5.º Encuentro de Semilleros de Investigación de Estudiantes de Pregrado · 2023
+**Autor del material original:** Dr. Julio López-Núñez  
+**Institución vinculada al taller de origen:** Universidad de Playa Ancha · Valparaíso, Chile  
+**Primera actividad documentada:** octubre de 2023  
+**Revisión de contenidos:** octubre de 2026
