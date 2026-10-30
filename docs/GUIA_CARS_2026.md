@@ -1,3 +1,7 @@
+[← Volver al recorrido](https://juliopez.github.io/CARS/) · [Metodología CARS](https://juliopez.github.io/CARS/#comenzar) · [Recursos complementarios](https://juliopez.github.io/CARS/#recursos)
+
+---
+
 # CARS en 2026 — guía metodológica actualizada
 
 **Autor de la metodología y material original:** Dr. Julio López-Núñez.  
