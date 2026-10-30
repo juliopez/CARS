@@ -16,6 +16,15 @@ La metodología **CARS**, desarrollada y difundida por el **Dr. Julio López-Nú
 
 > **Principio de actualización 2026:** definir un objetivo preciso, aportar contexto útil y **verificar el resultado**. Un prompt más extenso no es necesariamente mejor.
 
+
+## Laboratorio interactivo 2026
+
+Se agregó un [constructor visual de prompts CARS](laboratorio/index.html) que permite completar los cuatro componentes, utilizar casos ficticios, generar y copiar instrucciones, descargar un archivo de texto y aplicar la rúbrica didáctica de seis criterios.
+
+**Uso local:** descarga el repositorio y abre `laboratorio/index.html` en un navegador moderno. No requiere servidor ni claves API y no envía los campos a servicios externos. No ejecuta modelos de IA. La copia automática puede requerir HTTPS o un entorno seguro; la descarga y la selección manual del texto son alternativas.
+
+**Publicación:** el laboratorio está preparado como sitio estático para GitHub Pages. La rama de trabajo no implica que GitHub Pages ya esté desplegado; se debe configurar la fuente de publicación y comprobar la URL antes de anunciarla.
+
 ## Recorrido recomendado
 
 1. **Comprender** CARS y distinguir sus cuatro componentes.
