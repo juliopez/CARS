@@ -1,3 +1,7 @@
+[← Volver al recorrido](https://juliopez.github.io/CARS/) · [Metodología CARS](https://juliopez.github.io/CARS/#comenzar) · [Recursos complementarios](https://juliopez.github.io/CARS/#recursos)
+
+---
+
 # Rúbrica CARS 2026 — evaluación de respuestas
 
 Calificar cada dimensión en **0, 1 o 2 puntos** (máximo **12 puntos**). El objetivo no es medir «creatividad del prompt», sino **utilidad y verificabilidad de la respuesta**.
