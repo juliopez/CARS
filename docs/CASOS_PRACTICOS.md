@@ -1,3 +1,7 @@
+[← Volver al recorrido](https://juliopez.github.io/CARS/) · [Metodología CARS](https://juliopez.github.io/CARS/#comenzar) · [Recursos complementarios](https://juliopez.github.io/CARS/#recursos)
+
+---
+
 # CARS 2026 — casos prácticos de autoaprendizaje
 
 **Estado:** casos de práctica independientes de organizaciones.  
