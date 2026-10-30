@@ -20,7 +20,7 @@ jobs:
           from html.parser import HTMLParser
           import subprocess, tempfile
           root=Path('docs')
-          pages=[root/'index.html',root/'laboratorio/index.html',root/'presentacion/index.html']
+          pages=sorted(root.rglob('*.html'))
           for page in pages:
               assert page.is_file(), f'Falta {page}'
               content=page.read_text(encoding='utf-8')
@@ -32,13 +32,14 @@ jobs:
                           self.links += [v for k,v in attrs if k=='href' and v]
               parser=Links();parser.feed(content)
               for link in parser.links:
-                  if link.startswith(('http:','https:','#','mailto:')): continue
+                  if link.startswith(('http:','https:','#','mailto:','javascript:')): continue
+                  if not link.split('#')[0].split('?')[0]: continue
                   target=(page.parent/link.split('#')[0].split('?')[0]).resolve()
                   if target.is_dir(): target=target/'index.html'
                   assert target.exists(), f'Enlace roto desde {page}: {link}'
               import re
               scripts=re.findall(r'<script[^>]*>(.*?)</script>',content,re.S|re.I)
-              assert scripts, f'Falta JS: {page}'
+              # Las páginas puramente informativas no necesitan JavaScript.
               for code in scripts:
                   with tempfile.NamedTemporaryFile(mode='w',suffix='.js',delete=False) as f:
                       f.write(code); name=f.name
