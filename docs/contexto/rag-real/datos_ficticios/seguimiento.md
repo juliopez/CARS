@@ -4,4 +4,4 @@
 
 [S2] En el seguimiento se revisa si se cumplió el compromiso y si hubo obstáculos relevantes.
 
-> Documento inventado exclusivamente para formación. No corresponde a normas oficiales de Sercotec.
+> Documento inventado exclusivamente para formación. No representa normativa oficial de ninguna organización.
