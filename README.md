@@ -25,7 +25,7 @@ Se agregó un [constructor visual de prompts CARS](laboratorio/index.html) que p
 
 **Publicación:** el laboratorio está preparado como sitio estático para GitHub Pages. La rama de trabajo no implica que GitHub Pages ya esté desplegado; se debe configurar la fuente de publicación y comprobar la URL antes de anunciarla.
 
-## Recorrido recomendado
+- 🖥️ **[Presentación CARS 2026](docs/presentacion/index.html):** nueve diapositivas navegables para usar durante el taller, con acceso al laboratorio.\n\n## Recorrido recomendado
 
 1. **Comprender** CARS y distinguir sus cuatro componentes.
 2. **Aplicar** CARS a una tarea concreta con datos ficticios o autorizados.
